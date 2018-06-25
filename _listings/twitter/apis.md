@@ -4,11 +4,11 @@ x-slug: twitter
 description: From breaking news and entertainment to sports and politics, get the
   full story with all the live commentary.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
-x-kinRank: "10"
-x-alexaRank: "13"
+x-kinRank: "9"
+x-alexaRank: "12"
 tags: Count
-created: "2018-06-18"
-modified: "2018-06-18"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/twitter/apis.md
 specificationVersion: "0.14"
 apis:

@@ -4,7 +4,7 @@ description: This is a repository of count APIs, self-contained as a Github repo
   with HTML and YAML representations of the APIs and their surrounding operations.
 image: http://template.streamdata.gallery/assets/count.png
 created: "2018-02-24"
-modified: "2018-06-18"
+modified: "2018-06-25"
 url: http://count.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
@@ -90,12 +90,26 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/azure-logic-apps/apis.yaml
 - name: Azure Storage
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/azure-storage/apis.yaml
-- name: Weatherbit
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/weatherbit/apis.yaml
+- name: Weatherbit.io
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/weatherbit-io/apis.yaml
 - name: Getty Images
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/getty-images/apis.yaml
 - name: PayPal
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/paypal/apis.yaml
+- name: Instagram
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/instagram/apis.yaml
+- name: BMC Software
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/bmc-software/apis.yaml
+- name: Dyn
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/dyn/apis.yaml
+- name: Google Doubleclick
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/google-doubleclick/apis.yaml
+- name: Google Adsense
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/google-adsense/apis.yaml
+- name: Google Play
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/google-play/apis.yaml
+- name: Google Cloud Storage
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/google-cloud-storage/apis.yaml
 - name: Lykke
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/lykke/apis.yaml
 - name: Capital One DevExchange
@@ -136,34 +150,20 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/hsbc/apis.yaml
 - name: Runscope
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/runscope/apis.yaml
-- name: Instagram
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/instagram/apis.yaml
+- name: Xignite
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/xignite/apis.yaml
+- name: Xignite
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/xignite/apis.yaml
+- name: Xignite
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/xignite/apis.yaml
+- name: Eventbrite
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/eventbrite/apis.yaml
 - name: Twitter
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/twitter/apis.yaml
-- name: BMC Software
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/bmc-software/apis.yaml
-- name: Dyn
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/dyn/apis.yaml
-- name: Google Doubleclick
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/google-doubleclick/apis.yaml
-- name: Google Adsense
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/google-adsense/apis.yaml
-- name: Google Play
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/google-play/apis.yaml
-- name: Google Cloud Storage
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/google-cloud-storage/apis.yaml
-- name: Xignite
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/xignite/apis.yaml
-- name: Xignite
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/xignite/apis.yaml
-- name: Xignite
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/xignite/apis.yaml
 - name: AXA Assistance
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/axa-assistance/apis.yaml
 - name: Mattermost
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/mattermost/apis.yaml
-- name: Eventbrite
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/eventbrite/apis.yaml
 - name: Dropbox
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/dropbox/apis.yaml
 - name: CallFire
@@ -184,11 +184,11 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/open-fintech/apis.yaml
 - name: Open Science Framework
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/open-science-framework/apis.yaml
-- name: Pay Run
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/pay-run/apis.yaml
+- name: PayRun.io
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/payrun-io/apis.yaml
 - name: Reverb
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/reverb/apis.yaml
-- name: taxamo
+- name: Taxamo
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/taxamo/apis.yaml
 - name: Xero
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/xero/apis.yaml
@@ -206,6 +206,8 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/3scale/apis.yaml
 - name: 3scale
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/3scale/apis.yaml
+- name: UK National Archives
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/uk-national-archives/apis.yaml
 - name: Bitly
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/bitly/apis.yaml
 - name: Bitly
@@ -214,10 +216,6 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/bitly/apis.yaml
 - name: Bitly
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/bitly/apis.yaml
-- name: UK National Archives Discovery
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/uk-national-archives-discovery/apis.yaml
-- name: TelAPI
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/telapi/apis.yaml
 - name: Plivo
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/plivo/apis.yaml
 - name: Constant Contact
@@ -232,6 +230,8 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/instructure/apis.yaml
 - name: Instructure
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/instructure/apis.yaml
+- name: TelAPI
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/telapi/apis.yaml
 - name: Flickr
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/flickr/apis.yaml
 - name: PredictHQ
