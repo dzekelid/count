@@ -16,36 +16,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /link/countries:
-    get:
-      summary: Link Clicks by Country
-      description: Returns metrics about the countries referring click traffic to
-        a single Bitlink.
-      operationId: linkClicksbyCountry
-      x-api-path-slug: linkcountries-get
-      parameters:
-      - in: query
-        name: link
-        description: a Bitlink
-      - in: query
-        name: timezone
-        description: an integer hour offset from UTC (-14
-      - in: query
-        name: unit
-        description: minute | hour | day | week | month default:day
-      - in: query
-        name: units
-        description: an integer representing the time units to query data for
-      - in: query
-        name: unit_reference_ts
-        description: an epoch timestamp, indicating the most recent time for which
-          to pull metrics
-      responses:
-        200:
-          description: OK
-      tags:
-      - Link
-      - Countries
   /link/encoders_by_count:
     get:
       summary: Users Who Encoded Link

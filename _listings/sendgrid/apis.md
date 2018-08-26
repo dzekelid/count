@@ -7,13 +7,13 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgr
 x-kinRank: "9"
 x-alexaRank: "10000"
 tags: Count
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/sendgrid/apis.md
 specificationVersion: "0.14"
 apis:
-- name: SendGrid Get Contactdb Recipients Billable Count
-  x-api-slug: sendgrid
+- name: SendGrid - Get Contactdb Recipients Billable Count
+  x-api-slug: contactdbrecipientsbillable-count-get
   description: |-
     **This endpoint allows you to retrieve the number of Marketing Campaigns recipients that you will be billed for.**
 
@@ -22,63 +22,37 @@ apis:
     The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//contactdb/recipients/billable_count
-  tags: Email,Contactdb, Recipients, Billable, Count
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/sendgrid/contactdbrecipientsbillable-count-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/sendgrid/contactdbrecipientsbillable-count-get-openapi.md
-- name: SendGrid Get Contactdb Recipients Count
-  x-api-slug: sendgrid
+- name: SendGrid - Get Contactdb Recipients Count
+  x-api-slug: contactdbrecipientscount-get
   description: |-
     **This endpoint allows you to retrieve the total number of Marketing Campaigns recipients.**
 
     The contactdb is a database of your contacts for [SendGrid Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//contactdb/recipients/count
-  tags: Email,Contactdb, Recipients, Count
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/sendgrid/contactdbrecipientscount-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/sendgrid/contactdbrecipientscount-get-openapi.md
-- name: SendGrid Get User Account
-  x-api-slug: sendgrid
-  description: |-
-    **This endpoint allows you to retrieve your user account details.**
-
-    Your user's account information includes the user's account type and reputation.
-
-    Keeping your user profile up to date is important. This will help SendGrid to verify who you are as well as contact you should we need to.
-
-    For more information about your user profile:
-
-    * [SendGrid Account Settings](https://sendgrid.com/docs/User_Guide/Settings/account.html)
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
-  humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//user/account
-  tags: Email,User, Account
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/sendgrid/useraccount-get-openapi.md
-- name: SendGrid
-  x-api-slug: sendgrid
-  description: SendGrids cloud-based email infrastructure relieves businesses of the
-    cost and complexity of maintaining custom email systems. SendGrid provides reliable
-    delivery, scalability and real-time analytics along with flexible APIs that make
-    custom integration a breeze.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
-  humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3
-  tags: Count
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/sendgrid/openapi.md
 x-common:
 - type: x--net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
+- type: x-api-gallery
+  url: http://school.digger.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://sendgrid.stack.network
 - type: x-base
   url: https://api.sendgrid.com
 - type: x-blog

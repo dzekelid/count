@@ -7,53 +7,33 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28211-pred
 x-kinRank: "7"
 x-alexaRank: "292227"
 tags: Count
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/predicthq/apis.md
 specificationVersion: "0.14"
 apis:
-- name: PredictHQ Retrieve Account Details
-  x-api-slug: predicthq
-  description: If you need your account details for whatever reason, it's really easy
-    to get them.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28211-predicthq.jpg
-  humanURL: http://www.predicthq.com/
-  baseURL: https://api.predicthq.com////v1/accounts/self/
-  tags: Accounts,Self
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/predicthq/v1accountsself-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/predicthq/v1accountsself-get-openapi.md
-- name: PredictHQ Retrieve Events Count
-  x-api-slug: predicthq
+- name: PredictHQ API - Retrieve Events Count
+  x-api-slug: v1eventscount-get
   description: This endpoint accepts the same parameters as the ones described in
     Retrieve All Events and can be used to get aggregated counts of all matching events
     that are available to your account.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28211-predicthq.jpg
   humanURL: http://www.predicthq.com/
-  baseURL: https://api.predicthq.com////v1/events/count/
-  tags: Events,Count
+  baseURL: https://api.predicthq.com//
+  tags: SaaS, Technology, Events, API Provider, Profiles, Service API, Relative Data,
+    Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/predicthq/v1eventscount-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/predicthq/v1eventscount-get-openapi.md
-- name: PredictHQ
-  x-api-slug: predicthq
-  description: Event visibility yields higher returns & reduces operational costs.
-    PredictHQ is the worlds largest source of intelligent event data making businesses
-    smarter.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28211-predicthq.jpg
-  humanURL: http://www.predicthq.com/
-  baseURL: https://api.predicthq.com//
-  tags: Count
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/predicthq/openapi.md
 x-common:
 - type: x-website
   url: http://www.predicthq.com/
+- type: x-api-gallery
+  url: http://postmark.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://predicthq.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/predicthq
 - type: x-email

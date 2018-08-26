@@ -662,29 +662,6 @@ paths:
       - Baseentry
       - Action
       - Count
-  /service/batch/action/countBulkUploadEntries:
-    get:
-      summary: Get Service Batch Action Countbulkuploadentries
-      description: Returns total created entries count and total error entries count
-      operationId: batch.countBulkUploadEntries
-      x-api-path-slug: servicebatchactioncountbulkuploadentries-get
-      parameters:
-      - in: query
-        name: bulkUploadJobId
-        description: The id of the bulk upload job
-      - in: query
-        name: bulkUploadObjectType
-        description: 'Enum Type: `KalturaBulkUploadObjectType`'
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Service
-      - Batch
-      - Action
-      - CountBulkUploadEntries
   /service/cuepoint_cuepoint/action/count:
     get:
       summary: Get Service Cuepoint Cuepoint Action Count

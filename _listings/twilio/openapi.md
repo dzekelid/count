@@ -16,12 +16,14 @@ produces:
 consumes:
 - application/json
 paths:
-  /Accounts/{AccountSid}.{format}:
+  /Accounts/{AccountSid}/AvailablePhoneNumbers/{IsoCountryCode}/Local.{format}:
     get:
-      summary: Get Acount
-      description: Get Account
-      operationId: getAccount
-      x-api-path-slug: accountsaccountsid-format-get
+      summary: Get Available Local Phone Numbers
+      description: Returns a list of local AvailablePhoneNumber resource representationsnthat
+        match the specified filters, each representing a phone number thanis currently
+        available for provisioning within your account.n
+      operationId: returns-a-list-of-local-availablephonenumber-resource-representationsthat-match-the-specified-filter
+      x-api-path-slug: accountsaccountsidavailablephonenumbersisocountrycodelocal-format-get
       parameters:
       - in: path
         name: AccountSid
@@ -31,107 +33,63 @@ paths:
         description: By default, Twilios REST API returns XML
         type: string
         format: string
-      responses:
-        1:
-          description: Photoset not found - The photoset id passed was not the id
-            of avalid photoset owned by the calling user
-        2:
-          description: Photo not found - The photo id passed was not the id of a valid
-            photo owned by the calling user
-        95:
-          description: SSL is required - SSL is required to access the Flickr API
-        96:
-          description: Invalid signature - The passed signature was invalid
-        97:
-          description: Missing signature - The call required signing but no signature
-            was sent
-        98:
-          description: Login failed / Invalid auth token - The login details or auth
-            token passed were invalid
-        99:
-          description: User not logged in / Insufficient permissions - The method
-            requires user authentication but the user was not logged in, or the authenticated
-            method call did not have the required permissions
-        100:
-          description: Invalid API Key - The API key passed was not valid or has expired
-        105:
-          description: Service currently unavailable - The requested service is temporarily
-            unavailable
-        106:
-          description: Write operation failed - The requested operation failed due
-            to a temporary issue
-        111:
-          description: Format "xxx" not found - The requested response format was
-            not found
-        112:
-          description: Method "xxx" not found - The requested method was not found
-        114:
-          description: Invalid SOAP envelope - The SOAP envelope send in the request
-            could not be parsed
-        115:
-          description: Invalid XML-RPC Method Call - The XML-RPC request document
-            could not be parsed
-        116:
-          description: Bad URL found - One or more arguments contained a URL that
-            has been used for abuse on Flickr
-        200:
-          description: OK
-      tags:
-      - Accounts
-    post:
-      summary: Add Account
-      description: Add Account
-      operationId: addAccount
-      x-api-path-slug: accountsaccountsid-format-post
-      parameters:
       - in: path
-        name: AccountSid
-        description: The ID for the Twilio account
-      - in: path
-        name: format
-        description: By default, Twilios REST API returns XML
-        type: string
-        format: string
+        name: IsoCountryCode
+        description: ISO 3166-1 alpha-2
       responses:
         200:
           description: OK
       tags:
-      - Accounts
-    put:
-      summary: Update Account
-      description: Update Account
-      operationId: updateAccount
-      x-api-path-slug: accountsaccountsid-format-put
-      parameters:
-      - in: path
-        name: AccountSid
-        description: The ID for the Twilio account
-      - in: path
-        name: format
-        description: By default, Twilios REST API returns XML
-        type: string
-        format: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Accounts
-  /Accounts.{format}:
+      - Phone Numbers
+  /Accounts/{AccountSid}/AvailablePhoneNumbers/{IsoCountryCode}/Mobile.{format}:
     get:
-      summary: Get Accounts
-      description: Get Accounts
-      operationId: getAccounts
-      x-api-path-slug: accounts-format-get
+      summary: Get Available Mobile Phone Numbers
+      description: Returns a list of mobile AvailablePhoneNumber resource representations
+        that match the specified filters, each representing a phone number that is
+        currently available for provisioning within your account.
+      operationId: returns-a-list-of-mobile-availablephonenumber-resource-representations-that-match-the-specified-filt
+      x-api-path-slug: accountsaccountsidavailablephonenumbersisocountrycodemobile-format-get
       parameters:
-      - in: formData
+      - in: path
         name: AccountSid
         description: The ID for the Twilio account
       - in: path
         name: format
         description: By default, Twilios REST API returns XML
+        type: string
+        format: string
+      - in: path
+        name: IsoCountryCode
+        description: ISO 3166-1 alpha-2
       responses:
         200:
           description: OK
       tags:
-      - Accounts
+      - Phone Numbers
+  /Accounts/{AccountSid}/AvailablePhoneNumbers/{IsoCountryCode}/TollFree.{format}:
+    get:
+      summary: Get Available Toll Free Phone Numbers
+      description: Returns a list of toll-free AvailablePhoneNumber elements that
+        match thenspecified filters, each representing a phone number that is currentlynavailable
+        for provisioning within your account. To provision an availablenphone number,
+        POST the number to the IncomingPhoneNumbers resource.n
+      operationId: returns-a-list-of-tollfree-availablephonenumber-elements-that-match-thespecified-filters-each-repres
+      x-api-path-slug: accountsaccountsidavailablephonenumbersisocountrycodetollfree-format-get
+      parameters:
+      - in: path
+        name: AccountSid
+        description: The ID for the Twilio account
+      - in: path
+        name: format
+        description: By default, Twilios REST API returns XML
+        type: string
+        format: string
+      - in: path
+        name: IsoCountryCode
+        description: ISO 3166-1 alpha-2
+      responses:
+        200:
+          description: OK
+      tags:
+      - Phone Numbers
 ---

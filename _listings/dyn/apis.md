@@ -7,183 +7,74 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jp
 x-kinRank: "8"
 x-alexaRank: "20789"
 tags: Count
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/dyn/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Dyn Retrieve email sub-accounts
-  x-api-slug: dyn
-  description: Retrieving a list of up to 25 Email Sub-Accounts
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dynect.net
-  baseURL: https:////accounts
-  tags: Retrieve,Email, Accounts
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/dyn/accounts-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/dyn/accounts-get-openapi.md
-- name: Dyn Create an Email Sub-Account (API)
-  x-api-slug: dyn
-  description: Creating an Email Sub-Account using the API requires specific syntax
-    for the REST API.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dynect.net
-  baseURL: https:////accounts
-  tags: Create.Email, Accounts, (API)
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/dyn/accounts-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/dyn/accounts-post-openapi.md
-- name: Dyn Updating an Email Sub-Account
-  x-api-slug: dyn
-  description: Updating an Email Sub-Account
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dynect.net
-  baseURL: https:////accounts
-  tags: Updating.Email, Accounts
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/dyn/accounts-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/dyn/accounts-put-openapi.md
-- name: Dyn Deleting an Email Sub-Account
-  x-api-slug: dyn
-  description: Deleting an Email Sub-Account
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dynect.net
-  baseURL: https:////accounts/delete
-  tags: Deleting.Email, Accounts
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/dyn/accountsdelete-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/dyn/accountsdelete-post-openapi.md
-- name: Dyn Email Open Count
-  x-api-slug: dyn
+- name: Dyn - Email Open Count
+  x-api-slug: openscount-get
   description: Returns total number of opens for the specified account for the specified
     date range. Including a date range is highly recommended.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
   humanURL: http://dynect.net
-  baseURL: https:////opens/count
-  tags: .Email, Open, Count
+  baseURL: https:///
+  tags: DNS, DNS, DNS General, Stack Network, Technology, SaaS, Enterprise, ISP, internet,
+    Getting Started Example, API Provider, API Service Provider, Emails, Profiles,
+    Emails, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/dyn/openscount-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/dyn/openscount-get-openapi.md
-- name: Dyn Retrieve Count of Email Bounces
-  x-api-slug: dyn
-  description: Retrieving a total count of Email bounces using the API requires specific
-    syntax for the REST API.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dynect.net
-  baseURL: https:////reports/bounces/count
-  tags: Retrieve, Count, of,Email, Bounces
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/dyn/reportsbouncescount-get-openapi.md
-- name: Dyn Retrieve Count of Email Links Clicked
-  x-api-slug: dyn
-  description: Retrieving a total of Email links clicked
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dynect.net
-  baseURL: https:////reports/clicks/count
-  tags: Retrieve, Count, of,Email, Links, Clicked
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/dyn/reportsclickscount-get-openapi.md
-- name: Dyn Retrieve Count of Email Links Clicked
-  x-api-slug: dyn
-  description: Retrieving a total of Email links clicked
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dynect.net
-  baseURL: https:////reports/clicks/count/unique
-  tags: Retrieve, Count, of,Email, Links, Clicked
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/dyn/reportsclickscountunique-get-openapi.md
-- name: Dyn Retrieve Count of Email SPAM Complaints
-  x-api-slug: dyn
+- name: Dyn - Retrieve Count of Email SPAM Complaints
+  x-api-slug: reportscomplaintscount-get
   description: Retrieving a total count of Email complaints
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
   humanURL: http://dynect.net
-  baseURL: https:////reports/complaints/count
-  tags: Retrieve, Count, of,Email, SPAM, Complaints
+  baseURL: https:///
+  tags: DNS, DNS, DNS General, Stack Network, Technology, SaaS, Enterprise, ISP, internet,
+    Getting Started Example, API Provider, API Service Provider, Emails, Profiles,
+    Emails, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/dyn/reportscomplaintscount-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/dyn/reportscomplaintscount-get-openapi.md
-- name: Dyn Retrieve Count of Emails Delivered
-  x-api-slug: dyn
-  description: Retrieve Count of Emails Delivered
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dynect.net
-  baseURL: https:////reports/delivered/count
-  tags: Retrieve, Count, of,Emails, Delivered
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/dyn/reportsdeliveredcount-get-openapi.md
-- name: Dyn Retrieve Count of Email Issues
-  x-api-slug: dyn
-  description: Retrieving a total count of Email issues
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dynect.net
-  baseURL: https:////reports/issues/count
-  tags: Retrieve, Count, of,Email, Issues
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/dyn/reportsissuescount-get-openapi.md
-- name: Dyn Retrieve Count of Email Opens
-  x-api-slug: dyn
+- name: Dyn - Retrieve Count of Email Opens
+  x-api-slug: reportsopenscountunique-get
   description: Returns total number of unique opens for the specified account for
     the specified date range. Including a date range is highly recommended.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
   humanURL: http://dynect.net
-  baseURL: https:////reports/opens/count/unique
-  tags: Retrieve, Count, of,Email, Opens
+  baseURL: https:///
+  tags: DNS, DNS, DNS General, Stack Network, Technology, SaaS, Enterprise, ISP, internet,
+    Getting Started Example, API Provider, API Service Provider, Emails, Profiles,
+    Emails, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/dyn/reportsopenscountunique-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/dyn/reportsopenscountunique-get-openapi.md
-- name: Dyn Retrieve Count of Emails Sent
-  x-api-slug: dyn
-  description: Retrieve Count of Emails Sent
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dynect.net
-  baseURL: https:////reports/sent/count
-  tags: Retrieve, Count, of,Emails, Sent
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/dyn/reportssentcount-get-openapi.md
-- name: Dyn Retrieve Suppression Count
-  x-api-slug: dyn
+- name: Dyn - Retrieve Suppression Count
+  x-api-slug: suppressionscount-get
   description: Retrieving the count of Email addresses on the suppression list
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
   humanURL: http://dynect.net
-  baseURL: https:////suppressions/count
-  tags: Retrieve, Suppression, Count
+  baseURL: https:///
+  tags: DNS, DNS, DNS General, Stack Network, Technology, SaaS, Enterprise, ISP, internet,
+    Getting Started Example, API Provider, API Service Provider, Emails, Profiles,
+    Emails, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/dyn/suppressionscount-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/dyn/suppressionscount-get-openapi.md
-- name: Dyn
-  x-api-slug: dyn
-  description: Dyn is home to the worlds most trusted DNS product suite and the worlds
-    most reputable Email Deliverability Service.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dynect.net
-  baseURL: https:///
-  tags: Count
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/dyn/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://duckduckgo.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://dyn.stack.network
 - type: x-base
   url: https://api.dynect.net
 - type: x-blog

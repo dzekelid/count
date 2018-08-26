@@ -17,19 +17,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /v1/accounts/self/:
-    get:
-      summary: Retrieve Account Details
-      description: If you need your account details for whatever reason, it's really
-        easy to get them.
-      operationId: V1AccountsSelfGet
-      x-api-path-slug: v1accountsself-get
-      responses:
-        200:
-          description: OK
-      tags:
-      - Accounts
-      - Self
   /v1/events/count/:
     get:
       summary: Retrieve Events Count

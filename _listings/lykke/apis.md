@@ -7,85 +7,16 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykk
 x-kinRank: "8"
 x-alexaRank: "152167"
 tags: Count
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/lykke/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Lykke Get API Account Exist
-  x-api-slug: lykke
-  description: Get api account exist.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/AccountExist
-  tags: Account,Exist
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/lykke/apiaccountexist-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/lykke/apiaccountexist-get-openapi.md
-- name: Lykke Get API Countryphonecodes
-  x-api-slug: lykke
-  description: Get api countryphonecodes.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/CountryPhoneCodes
-  tags: Countryphonecodes
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/lykke/apicountryphonecodes-get-openapi.md
-- name: Lykke Get API Offchain Limit Count
-  x-api-slug: lykke
-  description: Get api offchain limit count.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/offchain/limit/count
-  tags: Offchain,Limit,Count
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/lykke/apioffchainlimitcount-get-openapi.md
-- name: Lykke Add API Margintrading Account Balance
-  x-api-slug: lykke
-  description: Add api margintrading account balance.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/MarginTrading/account/balance
-  tags: Margintrading,Account,Balance
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/lykke/apimargintradingaccountbalance-post-openapi.md
-- name: Lykke Delete API Margintrading Account Reset Account
-  x-api-slug: lykke
-  description: Delete api margintrading account reset account.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/MarginTrading/account/reset/{accountId}
-  tags: Margintrading,Account,Reset,Account
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/lykke/apimargintradingaccountresetaccountid-delete-openapi.md
-- name: Lykke Get API Restrictedcountries
-  x-api-slug: lykke
-  description: Get api restrictedcountries.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/RestrictedCountries
-  tags: Restrictedcountries
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/lykke/apirestrictedcountries-get-openapi.md
-- name: Lykke
-  x-api-slug: lykke
-  description: Lykke is a movement to build one global marketplace that is a level
-    playing field where everyone has access.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https:////
-  tags: Count
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/lykke/openapi.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://lyft.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://lykke.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/lykke-ag
 - type: x-email
