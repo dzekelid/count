@@ -14,38 +14,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /api/AccountExist:
-    get:
-      summary: Get API Account Exist
-      description: Get api account exist.
-      operationId: ApiAccountExistGet
-      x-api-path-slug: apiaccountexist-get
-      parameters:
-      - in: query
-        name: email
-      - in: query
-        name: partnerId
-      responses:
-        200:
-          description: OK
-      tags:
-      - Account
-      - Exist
-  /api/CountryPhoneCodes:
-    get:
-      summary: Get API Countryphonecodes
-      description: Get api countryphonecodes.
-      operationId: ApiCountryPhoneCodesGet
-      x-api-path-slug: apicountryphonecodes-get
-      parameters:
-      - in: header
-        name: Authorization
-        description: access token
-      responses:
-        200:
-          description: OK
-      tags:
-      - Countryphonecodes
   /api/offchain/limit/count:
     get:
       summary: Get API Offchain Limit Count

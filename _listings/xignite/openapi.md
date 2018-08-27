@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Xignite
 x-complete: 1
@@ -14,4 +13,21 @@ produces:
 - application/json
 consumes:
 - application/json
----
+paths:
+  /GetDayCount:
+    get:
+      summary: Get Day Count
+      description: Get day count.
+      operationId: GetDayCount
+      x-api-path-slug: getdaycount-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Day
+      - Count

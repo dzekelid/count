@@ -8,11 +8,31 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28880-ripa
 x-kinRank: "7"
 x-alexaRank: "1669824"
 tags: Count
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/ripaex/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: RIPA Node Documentation - Accounts Count
+  x-api-slug: apiaccountscount-get
+  description: Get the count of accounts.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28880-ripaex-io.jpg
+  humanURL: http://www.ripaex.io
+  baseURL: https://api.ripaex.io//
+  tags: Blockchain, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/ripaex/apiaccountscount-get-openapi.md
+- name: RIPA Node Documentation - Delegates Count
+  x-api-slug: apidelegatescount-get
+  description: Get the count of delegates.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28880-ripaex-io.jpg
+  humanURL: http://www.ripaex.io
+  baseURL: https://api.ripaex.io//
+  tags: Blockchain, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/ripaex/apidelegatescount-get-openapi.md
 x-common:
 - type: x-documentation
   url: https://test.ripaex.io/

@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Instructure
 x-complete: 1
@@ -15,4 +14,17 @@ produces:
 - application/json
 consumes:
 - application/json
----
+paths:
+  /conversations/unread_count:
+    get:
+      summary: Unread count
+      description: Unread count.
+      operationId: unread-count
+      x-api-path-slug: conversationsunread-count-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Conversations
+      - Unread
+      - Count

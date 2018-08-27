@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jp
 x-kinRank: "8"
 x-alexaRank: "20789"
 tags: Count
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/dyn/apis.md
 specificationVersion: "0.14"
 apis:
@@ -27,6 +27,43 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/dyn/openscount-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/dyn/openscount-get-openapi.md
+- name: Dyn - Retrieve Count of Email Bounces
+  x-api-slug: reportsbouncescount-get
+  description: Retrieving a total count of Email bounces using the API requires specific
+    syntax for the REST API.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
+  humanURL: http://dynect.net
+  baseURL: https:///
+  tags: DNS, DNS, DNS General, Stack Network, Technology, SaaS, Enterprise, ISP, internet,
+    Getting Started Example, API Provider, API Service Provider, Emails, Profiles,
+    Emails, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/dyn/reportsbouncescount-get-openapi.md
+- name: Dyn - Retrieve Count of Email Links Clicked
+  x-api-slug: reportsclickscount-get
+  description: Retrieving a total of Email links clicked
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
+  humanURL: http://dynect.net
+  baseURL: https:///
+  tags: DNS, DNS, DNS General, Stack Network, Technology, SaaS, Enterprise, ISP, internet,
+    Getting Started Example, API Provider, API Service Provider, Emails, Profiles,
+    Emails, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/dyn/reportsclickscount-get-openapi.md
+- name: Dyn - Retrieve Count of Email Links Clicked
+  x-api-slug: reportsclickscountunique-get
+  description: Retrieving a total of Email links clicked
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
+  humanURL: http://dynect.net
+  baseURL: https:///
+  tags: DNS, DNS, DNS General, Stack Network, Technology, SaaS, Enterprise, ISP, internet,
+    Getting Started Example, API Provider, API Service Provider, Emails, Profiles,
+    Emails, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/dyn/reportsclickscountunique-get-openapi.md
 - name: Dyn - Retrieve Count of Email SPAM Complaints
   x-api-slug: reportscomplaintscount-get
   description: Retrieving a total count of Email complaints
@@ -41,6 +78,30 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/dyn/reportscomplaintscount-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/dyn/reportscomplaintscount-get-openapi.md
+- name: Dyn - Retrieve Count of Emails Delivered
+  x-api-slug: reportsdeliveredcount-get
+  description: Retrieve Count of Emails Delivered
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
+  humanURL: http://dynect.net
+  baseURL: https:///
+  tags: DNS, DNS, DNS General, Stack Network, Technology, SaaS, Enterprise, ISP, internet,
+    Getting Started Example, API Provider, API Service Provider, Emails, Profiles,
+    Emails, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/dyn/reportsdeliveredcount-get-openapi.md
+- name: Dyn - Retrieve Count of Email Issues
+  x-api-slug: reportsissuescount-get
+  description: Retrieving a total count of Email issues
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
+  humanURL: http://dynect.net
+  baseURL: https:///
+  tags: DNS, DNS, DNS General, Stack Network, Technology, SaaS, Enterprise, ISP, internet,
+    Getting Started Example, API Provider, API Service Provider, Emails, Profiles,
+    Emails, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/dyn/reportsissuescount-get-openapi.md
 - name: Dyn - Retrieve Count of Email Opens
   x-api-slug: reportsopenscountunique-get
   description: Returns total number of unique opens for the specified account for
@@ -56,6 +117,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/dyn/reportsopenscountunique-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/dyn/reportsopenscountunique-get-openapi.md
+- name: Dyn - Retrieve Count of Emails Sent
+  x-api-slug: reportssentcount-get
+  description: Retrieve Count of Emails Sent
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
+  humanURL: http://dynect.net
+  baseURL: https:///
+  tags: DNS, DNS, DNS General, Stack Network, Technology, SaaS, Enterprise, ISP, internet,
+    Getting Started Example, API Provider, API Service Provider, Emails, Profiles,
+    Emails, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/dyn/reportssentcount-get-openapi.md
 - name: Dyn - Retrieve Suppression Count
   x-api-slug: suppressionscount-get
   description: Retrieving the count of Email addresses on the suppression list

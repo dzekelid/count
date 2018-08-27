@@ -14,23 +14,23 @@ produces:
 consumes:
 - application/json
 paths:
-  /api/AccountExist:
+  /api/offchain/limit/count:
     get:
-      summary: Get API Account Exist
-      description: Get api account exist.
-      operationId: ApiAccountExistGet
-      x-api-path-slug: apiaccountexist-get
+      summary: Get API Offchain Limit Count
+      description: Get api offchain limit count.
+      operationId: ApiOffchainLimitCountGet
+      x-api-path-slug: apioffchainlimitcount-get
       parameters:
-      - in: query
-        name: email
-      - in: query
-        name: partnerId
+      - in: header
+        name: Authorization
+        description: access token
       responses:
         200:
           description: OK
       tags:
-      - Account
-      - Exist
+      - Offchain
+      - Limit
+      - Count
   /api/CountryPhoneCodes:
     get:
       summary: Get API Countryphonecodes

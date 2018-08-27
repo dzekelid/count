@@ -15,58 +15,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /account:
-    get:
-      summary: GET for Account
-      description: Returns all accounts from the system
-      operationId: getAccountCollection
-      x-api-path-slug: account-get
-      parameters:
-      - in: query
-        name: filter
-        description: Filter
-      - in: query
-        name: limit
-        description: 'Amount of results (default: 25)'
-      - in: query
-        name: offset
-        description: 'Start from record (default: 0)'
-      - in: header
-        name: X-API2CRM-CRMKEY
-        description: CRM Key
-      - in: header
-        name: X-API2CRM-DATA-ENABLE
-        description: Data Enable
-      - in: header
-        name: X-API2CRM-USERKEY
-        description: User Key
-      responses:
-        200:
-          description: OK
-      tags:
-      - Accounts
-    post:
-      summary: POST for Account
-      description: Add account into the system
-      operationId: createAccountEntity
-      x-api-path-slug: account-post
-      parameters:
-      - in: body
-        name: body
-        description: Add account into the system
-        schema:
-          $ref: '#/definitions/holder'
-      - in: header
-        name: X-API2CRM-CRMKEY
-        description: CRM Key
-      - in: header
-        name: X-API2CRM-USERKEY
-        description: User Key
-      responses:
-        200:
-          description: OK
-      tags:
-      - Accounts
   /account/count:
     get:
       summary: COUNT for Account

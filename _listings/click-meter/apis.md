@@ -13,11 +13,143 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Count
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/click-meter/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Click Meter - Retrieve count of guests
+  x-api-slug: accountguestscount-get
+  description: Retrieve count of guests.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clickmeter-logo.png
+  humanURL: http://clickmeter.com
+  baseURL: https://apiv2.clickmeter.com:80//
+  tags: API Provider, Links, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/click-meter/accountguestscount-get-openapi.md
+- name: Click Meter - Retrieve count of the permissions for a guest
+  x-api-slug: accountguestsguestidpermissionscount-get
+  description: Retrieve count of the permissions for a guest.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clickmeter-logo.png
+  humanURL: http://clickmeter.com
+  baseURL: https://apiv2.clickmeter.com:80//
+  tags: API Provider, Links, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/click-meter/accountguestsguestidpermissionscount-get-openapi.md
+- name: Click Meter - Retrieve a count of conversions
+  x-api-slug: conversionscount-get
+  description: Retrieve a count of conversions.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clickmeter-logo.png
+  humanURL: http://clickmeter.com
+  baseURL: https://apiv2.clickmeter.com:80//
+  tags: API Provider, Links, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/click-meter/conversionscount-get-openapi.md
+- name: Click Meter - Retrieve a count of datapoints connected to this conversion
+  x-api-slug: conversionsconversioniddatapointscount-get
+  description: Retrieve a count of datapoints connected to this conversion.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clickmeter-logo.png
+  humanURL: http://clickmeter.com
+  baseURL: https://apiv2.clickmeter.com:80//
+  tags: API Provider, Links, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/click-meter/conversionsconversioniddatapointscount-get-openapi.md
+- name: Click Meter - Count the datapoints associated to the user
+  x-api-slug: datapointscount-get
+  description: Count the datapoints associated to the user.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clickmeter-logo.png
+  humanURL: http://clickmeter.com
+  baseURL: https://apiv2.clickmeter.com:80//
+  tags: API Provider, Links, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/click-meter/datapointscount-get-openapi.md
+- name: Click Meter - Retrieve count of domains
+  x-api-slug: domainscount-get
+  description: Retrieve count of domains.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clickmeter-logo.png
+  humanURL: http://clickmeter.com
+  baseURL: https://apiv2.clickmeter.com:80//
+  tags: API Provider, Links, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/click-meter/domainscount-get-openapi.md
+- name: Click Meter - Count the groups associated to the user.
+  x-api-slug: groupscount-get
+  description: Count the groups associated to the user..
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clickmeter-logo.png
+  humanURL: http://clickmeter.com
+  baseURL: https://apiv2.clickmeter.com:80//
+  tags: API Provider, Links, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/click-meter/groupscount-get-openapi.md
+- name: Click Meter - Count the datapoints associated to the user in this group.
+  x-api-slug: groupsiddatapointscount-get
+  description: Count the datapoints associated to the user in this group..
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clickmeter-logo.png
+  humanURL: http://clickmeter.com
+  baseURL: https://apiv2.clickmeter.com:80//
+  tags: API Provider, Links, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/click-meter/groupsiddatapointscount-get-openapi.md
+- name: Click Meter - Retrieve count of retargeting scripts
+  x-api-slug: retargetingcount-get
+  description: Retrieve count of retargeting scripts.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clickmeter-logo.png
+  humanURL: http://clickmeter.com
+  baseURL: https://apiv2.clickmeter.com:80//
+  tags: API Provider, Links, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/click-meter/retargetingcount-get-openapi.md
+- name: Click Meter - Count the datapoints associated to the retargeting script.
+  x-api-slug: retargetingiddatapointscount-get
+  description: Count the datapoints associated to the retargeting script..
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clickmeter-logo.png
+  humanURL: http://clickmeter.com
+  baseURL: https://apiv2.clickmeter.com:80//
+  tags: API Provider, Links, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/click-meter/retargetingiddatapointscount-get-openapi.md
+- name: Click Meter - List of all the groups associated to the user filtered by this
+    tag.
+  x-api-slug: tagscount-get
+  description: List of all the groups associated to the user filtered by this tag..
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clickmeter-logo.png
+  humanURL: http://clickmeter.com
+  baseURL: https://apiv2.clickmeter.com:80//
+  tags: API Provider, Links, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/click-meter/tagscount-get-openapi.md
+- name: Click Meter - Count the datapoints associated to the user filtered by this
+    tag
+  x-api-slug: tagstagiddatapointscount-get
+  description: Count the datapoints associated to the user filtered by this tag.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clickmeter-logo.png
+  humanURL: http://clickmeter.com
+  baseURL: https://apiv2.clickmeter.com:80//
+  tags: API Provider, Links, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/click-meter/tagstagiddatapointscount-get-openapi.md
+- name: Click Meter - Count the groups associated to the user filtered by this tag
+  x-api-slug: tagstagidgroupscount-get
+  description: Count the groups associated to the user filtered by this tag.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clickmeter-logo.png
+  humanURL: http://clickmeter.com
+  baseURL: https://apiv2.clickmeter.com:80//
+  tags: API Provider, Links, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/count/master/_listings/click-meter/tagstagidgroupscount-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://clearbit.api.gallery.streamdata.io
